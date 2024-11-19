@@ -7,37 +7,80 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <title>Toboolist</title>
 </head>
 
 <body>
-        <!-- Header page -->
-        <div id="containerHeader">
-            <!-- Site logo and title-->
-            <header>
-                <img src="./img/logo.png" alt="Logo di Toboolist">
-                <span>Toboolist</span>
-            </header>
-        </div>
-        <!-- Header page -->
+    <!-- Header page -->
+    <div id="containerHeader">
+        <!-- Site logo and title-->
+        <header>
+            <img src="./img/logo.png" alt="Logo di Toboolist">
+            <span>Toboolist</span>
+        </header>
+    </div>
+    <!-- Header page -->
 
-        <!-- Main content -->
-        <main>
-            <div id="containerMain">
+    <!-- Main content -->
+    <main>
+        <div id="containerMain">
             <!-- buttons container -->
-                <section class="sectionBtn">
-                    <button id="activeBtn" class="customBtn">Add Task</button>
-                    <button class="customBtn">Add Section</button>
-                </section>
+            <section class="sectionBtn">
+                <button id="activeBtn" class="customBtn">Add Task</button>
+                <button class="customBtn">Add Section</button>
+            </section>
 
-            <!-- Todo list -->
-                <section>
-                    
-                </section>
-            </div>
-        </main>
-        <!-- Main content -->
+            <!-- Todo list container -->
+            <section class="sectionTodo">
+                <!-- Task group name -->
+                <span class="taskGroup pointingTriangle">
+                    New Task
+                </span>
+                <!-- Task name list -->
+                <span class="taskName checkedBox">
+                    Quarterly Newsletter<span class="editorial">Editorial</span>
+                </span>
+
+                <!-- Task group name -->
+                <span class="taskGroup pointingTriangle">Today</span>
+                <!-- Task name list -->
+                <span class="taskName checkedBox">
+                    Recruiting blog post<span class="editorial">Q1 Goals</span>
+                </span>
+                <span class="taskName checkedBox">
+                    Mobile app launch<span class="q1Goals">Editorial</span>
+                </span>
+                <span class="taskName uncheckedBox">
+                    Interview John H.<span class="recruiting">Recruiting</span>
+                </span>
+                <span class="taskName checkedBox">
+                    Summit update to mobile storefronts<span class="mobile">Mobile</span>
+                </span>
+
+                <!-- Task group name -->
+                <span class="taskGroup pointingTriangle">
+                    Upcoming
+                </span>
+                <!-- Task name list -->
+                <span class="taskName uncheckedBox">
+                    Schedule meeting with Alex
+                </span>
+                <span class="taskName checkedBox">
+                    Homepage refresh<span class="website">Website</span>
+                </span>
+                <span class="taskName checkedBox">
+                    Onboard new Sales team members<span class="sales">Sales</span>
+                </span>
+                <span class="taskName checkedBox">
+                    Review editorial calendar<span class="editorial">Editorial</span>
+                </span>
+            </section>
+        </div>
+    </main>
+    <!-- Main content -->
 </body>
 
 </html>
