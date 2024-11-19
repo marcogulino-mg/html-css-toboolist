@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+/* Body Contents */
+
+/* Header */
+
+#containerHeader {
+    background-color: #fff;
+}
+
+header {
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+/* Logo */
+#containerHeader img {
+    min-width: 1%;
+    vertical-align: middle;
+}
+
+/* Company name */
+#containerHeader span {
+    font-weight: bold;
+    font-size: 40px;
+    vertical-align: middle;
+}
